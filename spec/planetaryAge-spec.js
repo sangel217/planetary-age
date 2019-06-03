@@ -22,4 +22,12 @@ describe('PlanetaryAge', function(){
   it('should calculate a users age on Venus', function() {
     expect(reusableAge.checkVenus()).toEqual(51);
   });
+
+  it('should calculate a users age on Mars', function() {
+    expect(reusableAge.checkMars()).toEqual(17);
+  });
+
+  it('should calculate a users age on Jupiter', function() {
+    expect(reusableAge.checkJupiter()).toEqual(2);
+  });
 });
