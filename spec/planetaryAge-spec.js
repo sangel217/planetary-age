@@ -13,19 +13,19 @@ describe('PlanetaryAge', function(){
 
   it('should calculate a users age on Earth', function() {
     console.log(reusableAge.checkEarth());
-    expect(reusableAge.checkEarth()).toEqual([32, 68]);
+    expect(reusableAge.checkEarth()).toEqual([31, 68]);
   });
 
   it('should calculate a users age on Mercury', function() {
-    expect(reusableAge.checkMercury()).toEqual([133, 283]);
+    expect(reusableAge.checkMercury()).toEqual([129, 283]);
   });
 
   it('should calculate a users age on Venus', function() {
-    expect(reusableAge.checkVenus()).toEqual([51, 109]);
+    expect(reusableAge.checkVenus()).toEqual([50, 109]);
   });
 
   it('should calculate a users age on Mars', function() {
-    expect(reusableAge.checkMars()).toEqual([17, 36]);
+    expect(reusableAge.checkMars()).toEqual([16, 36]);
   });
 
   it('should calculate a users age on Jupiter', function() {
